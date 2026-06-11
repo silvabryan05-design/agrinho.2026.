@@ -1,0 +1,115 @@
+:root{
+    --verde:#2d6a4f;
+    --verde-escuro:#1b4332;
+    --verde-claro:#95d5b2;
+    --dourado:#ffd166;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+/* FUNDO DE CAMPO ONLINE */
+body{
+    background:
+    linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+    url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1950&q=80") center/cover no-repeat fixed;
+    color:white;
+}
+
+/* HEADER */
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 5%;
+    background:rgba(27,67,50,0.9);
+}
+
+header a{
+    color:white;
+    text-decoration:none;
+    margin:0 10px;
+    font-weight:600;
+}
+
+/* HERO */
+.hero{
+    height:90vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:3rem;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    background:var(--dourado);
+    color:black;
+    border-radius:8px;
+    text-decoration:none;
+}
+
+/* SEÇÕES */
+section{
+    background:rgba(255,255,255,0.9);
+    color:black;
+    margin:20px 5%;
+    padding:40px;
+    border-radius:10px;
+}
+
+/* CARDS */
+.cards{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.card{
+    background:white;
+    padding:15px;
+    border-radius:10px;
+    width:220px;
+    text-align:center;
+}
+
+/* NUMEROS */
+.numeros{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    margin-top:20px;
+}
+
+.numeros h2{
+    color:var(--verde);
+    font-size:2.5rem;
+}
+
+/* TIMELINE */
+.timeline{
+    border-left:4px solid var(--verde);
+    padding-left:20px;
+}
+
+.evento{
+    margin-bottom:15px;
+}
+
+/* CURIOSIDADES */
+.curiosidade-grid{
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+    justify-content:center
