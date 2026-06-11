@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Agro Forte, Futuro Sustentável</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">
+        <h1>🌱 Agro Forte</h1>
+        <button id="tema">🌙</button>
+    </div>
+
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#tecnologia">Tecnologia</a>
+        <a href="#sustentabilidade">Sustentabilidade</a>
+        <a href="#futuro">Futuro</a>
+        <a href="#curiosidades">Curiosidades</a>
+        <a href="#calculadora">Calculadora</a>
+        <a href="#quiz">Quiz</a>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-content">
+        <h1>Agro Forte,<br>Futuro Sustentável</h1>
+        <p>Tecnologia e natureza trabalhando juntas para um mundo melhor.</p>
+        <a href="#sobre" class="btn">Explorar</a>
+    </div>
+</section>
+
+<!-- SOBRE -->
+<section id="sobre">
+    <h2>🌾 Sobre o Agro</h2>
+    <p>
+        O agronegócio é essencial para alimentar o mundo. Com tecnologia e sustentabilidade,
+        podemos produzir mais sem destruir o meio ambiente.
+    </p>
+</section>
+
+<!-- TECNOLOGIA -->
+<section id="tecnologia">
+    <h2>🚜 Tecnologia no Campo</h2>
+
+    <div class="cards">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1581091012184-7b1a5b0b7c70?auto=format&fit=crop&w=800&q=80">
+            <h3>Drones</h3>
+            <p>Monitoramento inteligente das plantações.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1595433562696-b20b4884de80?auto=format&fit=crop&w=800&q=80">
+            <h3>Energia Solar</h3>
+            <p>Redução de custos e impacto ambiental.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1585238342026-3f8f6b26f4f5?auto=format&fit=crop&w=800&q=80">
+            <h3>Sensores</h3>
+            <p>Controle do solo em tempo real.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?auto=format&fit=crop&w=800&q=80">
+            <h3>IA</h3>
+            <p>Decisões inteligentes para o campo.</p>
+        </div>
+    </div>
+</section>
+
+<!-- SUSTENTABILIDADE -->
+<section id="sustentabilidade">
+    <h2>♻️ Sustentabilidade</h2>
+
+    <ul>
+        <li>Uso consciente da água</li>
+        <li>Energia limpa</li>
+        <li>Redução de agrotóxicos</li>
+        <li>Reflorestamento</li>
+    </ul>
+
+    <div class="numeros">
+        <div>
+            <h2 class="contador" data-target="100">0</h2>
+            <p>Água preservada (%)</p>
+        </div>
+
+        <div>
+            <h2 class="contador" data-target="90">0</h2>
+            <p>Energia limpa (%)</p>
+        </div>
+
+        <div>
+            <h2 class="contador" data-target="85">0</h2>
+            <p>Produção sustentável (%)</p>
+        </div>
+    </div>
+</section>
+
+<!-- FUTURO -->
+<section id="futuro">
+    <h2>🌎 Futuro do Agro</h2>
+
+    <div class="timeline">
+        <div class="evento">
+            <span>2020</span>
+            <p>Drones começaram a ser usados no campo.</p>
+        </div>
+
+        <div class="evento">
+            <span>2023</span>
+            <p>Expansão da agricultura digital.</p>
+        </div>
+
+        <div class="evento">
+            <span>2026</span>
+            <p>IA e sustentabilidade dominam o agro.</p>
+        </div>
+    </div>
+</section>
+
+<!-- CURIOSIDADES -->
+<section id="curiosidades">
+    <h2>💡 Curiosidades</h2>
+
+    <div class="curiosidade-grid">
+        <div class="item">🌽 <h3>Alimentos</h3><p>O agro alimenta bilhões.</p></div>
+        <div class="item">💧 <h3>Água</h3><p>Tecnologia reduz desperdício.</p></div>
+        <div class="item">🌳 <h3>Natureza</h3><p>Preservação é essencial.</p></div>
+    </div>
+</section>
+
+<!-- CALCULADORA -->
+<section id="calculadora">
+    <h2>💧 Calculadora de Água</h2>
+
+    <input type="number" id="litros" placeholder="Litros por dia">
+    <button onclick="calcular()">Calcular</button>
+
+    <p id="resultado"></p>
+</section>
+
+<!-- QUIZ -->
+<section id="quiz">
+    <h2>🧠 Quiz</h2>
+
+    <p>Qual prática é sustentável?</p>
+
+    <button onclick="resposta(true)">Rotação de culturas</button>
+    <button onclick="resposta(false)">Desperdício de água</button>
+
+    <p id="mensagem"></p>
+</section>
+
+<footer>
+    <p>Projeto Agrinho 2026 | Agro Forte, Futuro Sustentável 🌱</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
